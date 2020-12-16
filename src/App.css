@@ -5,17 +5,31 @@ body {
   align-items: center;
   min-height: 100vh;
   text-align: center;
+  background-color: #8a79de;
 }
 h1 {
   margin: 0;
   margin-bottom: 1em;
+  font-size: 4rem;
+  color: #ffffff;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+select {
+  border: none;
+  padding: 10px;
+  border-radius: 5rem;
+  outline: none;
 }
 
 .input {
-  border: 1px solid #333333;
+  border: 3px solid #333333;
   border-radius: 0.3em;
-  padding: 0.25rem;
+  padding: 0.6rem;
   width: 7em;
+  outline: none;
 }
 
 select {
@@ -24,5 +38,5 @@ select {
 
 .equals {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 4rem;
 }
